@@ -1,1 +1,100 @@
-# basic-portfolio-website
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    transition: 0.5s all ease;
+}
+button:hover{
+   background: linear-gradient(45deg,  tomato, lightsalmon); 
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    align-items: center;
+    display: flex;
+   
+}
+.col-6{
+    width: 50%;
+}
+.hero-banner{
+    height: 100vh;
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.hero-heading{
+    font-weight: 400;
+    font-size: 45px;
+}
+.hero-name{
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    font-size: 65px;
+    /* color: transparent; */
+    /* -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+     opacity: 0.3; */
+     cursor: pointer;
+     /* transition: animation all ease; */
+     animation: example 5s ease-in-out;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+
+     /* animation-name: example;
+  animation-duration: 5s; */
+}
+@keyframes example {
+    from  {-webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        opacity: 0.3;
+        color: transparent;}
+    /* 25%  {background-color: yellow;}
+    50%  {background-color: blue;} */
+    to {color: #F88366;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #F88366;;
+        /* -webkit-text-stroke-color: rgb(238, 235, 235); */
+        opacity: 1;}
+        
+  }
+
+.hero-image{
+    
+}
+.dream-banner{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-name{
+    font-size: 35px;
+    color: #282828;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
