@@ -110,7 +110,7 @@ button:hover{
     border-image: linear-gradient(180deg, lightsalmon, tomato) ;
     border-image-slice: 5;
     padding: 25px;
-    min-height: 300px;
+    min-height: 400px;
     box-shadow: 1px 1px 4px 2px #28282821; ;
 }
 .box1 h3, .box2 h3{
